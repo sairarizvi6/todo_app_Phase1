@@ -1,0 +1,21 @@
+[project]
+name = "todo-console-app"
+version = "0.1.0"
+description = "A simple command-line interface application for managing personal todo tasks."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+todo = "src.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "flake8>=4.0"
+]
