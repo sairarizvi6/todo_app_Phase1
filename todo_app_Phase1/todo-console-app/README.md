@@ -69,5 +69,5 @@ This project follows a spec-driven development approach where all features are d
 
 ## Submission
 - Phase: 1 of 5
-- Deadline: December 7, 2025
+- Deadline: December , 2026
 - Hackathon: Panaversity Hackathon II
